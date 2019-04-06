@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "engines": {
+    "node": "10.x"
+  },
+
+  "author": "Harpreet Singh",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
