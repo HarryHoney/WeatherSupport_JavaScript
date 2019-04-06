@@ -2,7 +2,7 @@
 const express=require('express');
 
 var app = express();//this will return a object with few functions i can use
-
+var port=process.env.PORT||5000;
 var ansobj=null;
 app.get('/data',(req,res) =>{                          //watch video 44 building your first app
 	var OAuth = require('oauth');
@@ -80,4 +80,4 @@ request.get(
    res.send(ansobj);
 });
 
-app.listen(5000);
+app.listen(port);
