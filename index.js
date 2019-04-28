@@ -1,4 +1,4 @@
-//heroku password is honey@123isgood
+//heroku password is ********
 //details are written in copy
 //see your app here:-   https://dashboard.heroku.com/apps
 const express=require('express');
@@ -6,10 +6,10 @@ const express=require('express');
 var app = express();//this will return a object with few functions i can use
 var port=process.env.PORT||5000;
 var ansobj=null;
-app.get('/data',(req,res) =>{                          //watch video 44 building your first app
+app.get('/data',(req,res) =>{                          
 	var OAuth = require('oauth');
 var header = {
-    "X-Yahoo-App-Id": "pg8rqC6o"
+    "X-Yahoo-App-Id": "*******"
 };
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
 var request = new OAuth.OAuth(
