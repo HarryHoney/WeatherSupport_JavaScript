@@ -74,12 +74,10 @@ request.get(
                 six_text : data1.forecasts[5].text,
                 six_code : data1.forecasts[5].code
             };
-            
+            res.send(ansobj);
         }
     }
 );
-
-   res.send(ansobj);
 });
 
 app.listen(port);
